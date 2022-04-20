@@ -1,0 +1,17 @@
+#include <iostream>                         input:     20                     
+using namespace std;                        output:    25
+void func_1(int*);                                     25
+
+int main(){
+    int x;
+    cin>>x;
+    func_1(&x);    (address off=&)
+    cout<<x;
+    return 0;
+   
+}
+void func_1(int *x){
+    *x=*x+5;
+    std:cout<<*x<<std::endl;
+    
+}
