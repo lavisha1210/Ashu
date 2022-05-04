@@ -14,4 +14,4 @@ void func_1(int *x){
     *x=*x+5;
     std:cout<<*x<<std::endl;
     
-}
+}//hi im lavishA
